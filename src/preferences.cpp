@@ -503,7 +503,7 @@ void VapourSynth(wxTreebook *book, Preferences *parent) {
 
 	const wxString log_levels[] = { "Quiet", "Fatal", "Critical", "Warning", "Information", "Debug" };
 	wxArrayString log_levels_choice(6, log_levels);
-	p->OptionChoice(general, _("Log level"), log_levels_choice, "Provider/Video/VapourSynth/Log Level");
+	p->OptionChoice(general, _("Log Level"), log_levels_choice, "Provider/Video/VapourSynth/Log Level");
 	p->CellSkip(general);
 	p->OptionAdd(general, _("Load user plugins"), "Provider/VapourSynth/Autoload User Plugins");
 
