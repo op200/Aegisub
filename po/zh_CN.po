@@ -17,13 +17,12 @@
 # "X-Poedit-SourceCharset: UTF-8\n"
 # "Plural-Forms: nplurals=1; plural=0;\n"
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: arch1t3cht/Aegisub Feature Release 12+ \n"
 "Report-Msgid-Bugs-To: https://github.com/op200/Aegisub \n"
-"POT-Creation-Date: 2024-11-19 09:25+0800\n"
-"PO-Revision-Date: 2024-11-19 15:00+0800\n"
+"POT-Creation-Date: 2025-01-21 18:45+0800\n"
+"PO-Revision-Date: 2025-01-21 19:00+0800\n"
 "Last-Translator: op200 <None@None>\n"
 "Language-Team: None <None@None>\n"
 "Language: zh_CN\n"
@@ -113,88 +112,9 @@ msgstr "移除所选行中所有样式覆写标签"
 msgid "strip tags"
 msgstr "移除样式覆写标签"
 
-#: ../packages/desktop/aegisub.appdata.xml.in.in:6
 #: ../packages/desktop/aegisub.desktop.in.in:5
 msgid "Aegisub"
 msgstr "Aegisub"
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:7
-msgid ""
-"A free, cross-platform open source tool for creating and modifying subtitles"
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:9
-msgid ""
-"Aegisub is a free, cross-platform open source tool for creating and "
-"modifying subtitles. Aegisub makes it quick and easy to time subtitles to "
-"audio, and features many powerful tools for styling them, including a built-"
-"in real-time video preview."
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:10
-msgid ""
-"Aegisub was originally created as a tool to make typesetting, particularly "
-"in anime fansubs, a less painful experience. At the time of the start of the "
-"project, many other programs that supported the Advanced Substation Alpha "
-"format lacked (and in many cases, still lack; development on several "
-"competing programs have since been dropped for various reasons completely "
-"unrelated to Aegisub) many vital functions, or were too buggy and/or "
-"unreliable to be really useful."
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:11
-msgid ""
-"Since then, Aegisub has grown into a fully fledged, highly customizable "
-"subtitle editor. It features a lot of convenient tools to help you with "
-"timing, typesetting, editing and translating subtitles, as well as a "
-"powerful scripting environment called Automation (originally mostly intended "
-"for creating karaoke effects, Automation can now be used much else, "
-"including creating macros and various other convenient tools)."
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:12
-msgid "Some highlights of Aegisub:"
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:14
-msgid "Simple and intuitive yet powerful interface for editing subtitles"
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:15
-msgid "Support for many formats and character sets"
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:16
-msgid "Powerful video mode"
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:17
-msgid "Visual typesetting tools"
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:18
-msgid "Intuitive and customizable audio timing mode"
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:19
-msgid "Fully scriptable through the Automation module"
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:32
-msgid "Typesetting"
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:36
-msgid "Audio video"
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:40
-msgid "Audio timing"
-msgstr ""
-
-#: ../packages/desktop/aegisub.appdata.xml.in.in:44
-msgid "Aegisub Group"
-msgstr ""
 
 #: ../packages/desktop/aegisub.desktop.in.in:6
 msgid "Subtitle Editor"
@@ -538,7 +458,7 @@ msgstr "打开一个新的应用窗口"
 msgid "&Options..."
 msgstr "选项(&O)…"
 
-#: ../src/command/app.cpp:206 ../src/dialog_properties.cpp:146
+#: ../src/command/app.cpp:206 ../src/dialog_properties.cpp:169
 #: ../src/dialog_timing_processor.cpp:168 ../src/preferences.cpp:128
 #: ../src/preferences.cpp:168
 msgid "Options"
@@ -1255,8 +1175,7 @@ msgstr "在文本光标处分割 (估算时轴)"
 msgid ""
 "Split the current line at the cursor, dividing the original line's duration "
 "between the new ones"
-msgstr ""
-"在文本编辑光标处分割行，按字符数量计算分割位置的时间"
+msgstr "在文本编辑光标处分割行，按字符数量计算分割位置的时间"
 
 #: ../src/command/edit.cpp:1129 ../src/command/edit.cpp:1130
 #: ../src/subs_edit_ctrl.cpp:421
@@ -2984,9 +2903,8 @@ msgid ""
 "If inactive, the inner quad can only be resized without changing the "
 "perspective plane. If active, this holds for the outer quad instead."
 msgstr ""
-"当环绕平面可见时，切换锁定两个四边形。"
-"关闭时，调整内四边形无法改变透视。"
-"启用时，则作用于外四边形。"
+"当环绕平面可见时，切换锁定两个四边形。关闭时，调整内四边形无法改变透视。启用"
+"时，则作用于外四边形。"
 
 #: ../src/command/vis_tool.cpp:188 ../src/command/vis_tool.cpp:189
 msgid "Show Grid"
@@ -3013,8 +2931,7 @@ msgid ""
 "Finds a value for \\org where \\fax can be zero, if possible. Use this mode "
 "if your event contains line breaks."
 msgstr ""
-"如果可行，找到一个使 \\fax 为 0 的 \\org 值。"
-"如果文本中有换行符，使用本模式。"
+"如果可行，找到一个使 \\fax 为 0 的 \\org 值。如果文本中有换行符，使用本模式。"
 
 #: ../src/command/vis_tool.cpp:228 ../src/command/vis_tool.cpp:229
 msgid "\\org Mode: Keep"
@@ -3368,79 +3285,79 @@ msgstr "%s [原始备份]"
 msgid "%s [RECOVERED]"
 msgstr "%s [已恢复]"
 
-#: ../src/dialog_colorpicker.cpp:551
+#: ../src/dialog_colorpicker.cpp:555
 msgid "Select Color"
 msgstr "选择颜色"
 
-#: ../src/dialog_colorpicker.cpp:565
+#: ../src/dialog_colorpicker.cpp:569
 msgid "Color spectrum"
 msgstr "色彩光谱"
 
-#: ../src/dialog_colorpicker.cpp:569
+#: ../src/dialog_colorpicker.cpp:573
 msgid "HSL/L"
 msgstr "HSL/明度"
 
-#: ../src/dialog_colorpicker.cpp:569
+#: ../src/dialog_colorpicker.cpp:573
 msgid "HSV/H"
 msgstr "HSV/色相"
 
-#: ../src/dialog_colorpicker.cpp:569
+#: ../src/dialog_colorpicker.cpp:573
 msgid "RGB/B"
 msgstr "RGB/蓝"
 
-#: ../src/dialog_colorpicker.cpp:569
+#: ../src/dialog_colorpicker.cpp:573
 msgid "RGB/G"
 msgstr "RGB/绿"
 
-#: ../src/dialog_colorpicker.cpp:569
+#: ../src/dialog_colorpicker.cpp:573
 msgid "RGB/R"
 msgstr "RGB/红"
 
-#: ../src/dialog_colorpicker.cpp:577
+#: ../src/dialog_colorpicker.cpp:581
 msgid "RGB color"
 msgstr "RGB色彩"
 
-#: ../src/dialog_colorpicker.cpp:578
+#: ../src/dialog_colorpicker.cpp:582
 msgid "HSL color"
 msgstr "HSL色彩"
 
-#: ../src/dialog_colorpicker.cpp:579
+#: ../src/dialog_colorpicker.cpp:583
 msgid "HSV color"
 msgstr "HSV色彩"
 
-#: ../src/dialog_colorpicker.cpp:604
+#: ../src/dialog_colorpicker.cpp:608
 msgid "Spectrum mode:"
 msgstr "光谱模式:"
 
-#: ../src/dialog_colorpicker.cpp:621
+#: ../src/dialog_colorpicker.cpp:625
 msgid "Blue:"
 msgstr "蓝:"
 
-#: ../src/dialog_colorpicker.cpp:621
+#: ../src/dialog_colorpicker.cpp:625
 msgid "Green:"
 msgstr "绿:"
 
-#: ../src/dialog_colorpicker.cpp:621
+#: ../src/dialog_colorpicker.cpp:625
 msgid "Red:"
 msgstr "红:"
 
-#: ../src/dialog_colorpicker.cpp:624
+#: ../src/dialog_colorpicker.cpp:628
 msgid "Alpha:"
 msgstr "透明度:"
 
-#: ../src/dialog_colorpicker.cpp:631 ../src/dialog_colorpicker.cpp:634
+#: ../src/dialog_colorpicker.cpp:635 ../src/dialog_colorpicker.cpp:638
 msgid "Hue:"
 msgstr "色相:"
 
-#: ../src/dialog_colorpicker.cpp:631
+#: ../src/dialog_colorpicker.cpp:635
 msgid "Lum.:"
 msgstr "亮度:"
 
-#: ../src/dialog_colorpicker.cpp:631 ../src/dialog_colorpicker.cpp:634
+#: ../src/dialog_colorpicker.cpp:635 ../src/dialog_colorpicker.cpp:638
 msgid "Sat.:"
 msgstr "饱和度:"
 
-#: ../src/dialog_colorpicker.cpp:634
+#: ../src/dialog_colorpicker.cpp:638
 msgid "Value:"
 msgstr "明度:"
 
@@ -3948,80 +3865,92 @@ msgstr "取消"
 msgid "Cancelling..."
 msgstr "正在取消…"
 
-#: ../src/dialog_properties.cpp:89
+#: ../src/dialog_properties.cpp:94
 msgid "Script Properties"
 msgstr "脚本配置"
 
-#: ../src/dialog_properties.cpp:103
+#: ../src/dialog_properties.cpp:108
 msgid "Script"
 msgstr "脚本"
 
-#: ../src/dialog_properties.cpp:106
+#: ../src/dialog_properties.cpp:111
 msgid "Title:"
 msgstr "标题:"
 
-#: ../src/dialog_properties.cpp:107
+#: ../src/dialog_properties.cpp:112
 msgid "Original script:"
-msgstr "脚本原作:"
+msgstr "原脚本作者:"
 
-#: ../src/dialog_properties.cpp:108
+#: ../src/dialog_properties.cpp:113
 msgid "Translation:"
-msgstr "翻译:"
+msgstr "原翻译:"
 
-#: ../src/dialog_properties.cpp:109
+#: ../src/dialog_properties.cpp:114
 msgid "Editing:"
-msgstr "编辑:"
+msgstr "原编辑校对:"
 
-#: ../src/dialog_properties.cpp:110
+#: ../src/dialog_properties.cpp:115
 msgid "Timing:"
-msgstr "计时:"
+msgstr "原时轴:"
 
-#: ../src/dialog_properties.cpp:111
+#: ../src/dialog_properties.cpp:116
 msgid "Synch point:"
 msgstr "同步点:"
 
-#: ../src/dialog_properties.cpp:112
+#: ../src/dialog_properties.cpp:117
 msgid "Updated by:"
-msgstr "编修者:"
+msgstr "更新者:"
 
-#: ../src/dialog_properties.cpp:113
+#: ../src/dialog_properties.cpp:118
 msgid "Update details:"
 msgstr "更新摘要:"
 
-#: ../src/dialog_properties.cpp:122 ../src/dialog_resample.cpp:141
+#: ../src/dialog_properties.cpp:130 ../src/dialog_resample.cpp:141
 #: ../src/export_framerate.cpp:70
 msgid "From &video"
 msgstr "从视频获得(&V)"
 
-#: ../src/dialog_properties.cpp:141
+#: ../src/dialog_properties.cpp:139
+msgid "Script: "
+msgstr ""
+
+#: ../src/dialog_properties.cpp:145
+msgid "From video"
+msgstr ""
+
+#: ../src/dialog_properties.cpp:151
+msgid "Layout: "
+msgstr ""
+
+#: ../src/dialog_properties.cpp:164
 msgid "Resolution"
 msgstr "分辨率"
 
-#: ../src/dialog_properties.cpp:149
+#: ../src/dialog_properties.cpp:172
 msgid "0: Smart wrapping, top line is wider"
 msgstr "0: 智能换行，上行较宽"
 
-#: ../src/dialog_properties.cpp:150
+#: ../src/dialog_properties.cpp:173
 msgid "1: End-of-line word wrapping, only \\N breaks"
 msgstr "1: 于行尾词处换行，仅于\\N 断行"
 
-#: ../src/dialog_properties.cpp:151
+#: ../src/dialog_properties.cpp:174
 msgid "2: No word wrapping, both \\n and \\N break"
 msgstr "2: 不自动换行，于 \\n 及 \\N 断行"
 
-#: ../src/dialog_properties.cpp:152
+#: ../src/dialog_properties.cpp:175
 msgid "3: Smart wrapping, bottom line is wider"
 msgstr "3: 智能换行，下行较宽"
 
-#: ../src/dialog_properties.cpp:156
+#: ../src/dialog_properties.cpp:179
 msgid "Wrap Style: "
 msgstr "换行方式: "
 
-#: ../src/dialog_properties.cpp:159
+#: ../src/dialog_properties.cpp:182
 msgid "Scale Border and Shadow"
 msgstr "比例缩放边框和阴影"
 
-#: ../src/dialog_properties.cpp:160
+#: ../src/dialog_properties.cpp:183
 msgid ""
 "Scale border and shadow together with script/render resolution. If this is "
 "unchecked, relative border and shadow size will depend on renderer."
@@ -4029,7 +3958,7 @@ msgstr ""
 "随脚本或渲染的分辨率按比例缩放边框和阴影，如果此项不选中，相关的边框和阴影大"
 "小将由渲染器决定。"
 
-#: ../src/dialog_properties.cpp:196
+#: ../src/dialog_properties.cpp:221
 msgid "property changes"
 msgstr "配置更改"
 
@@ -6331,7 +6260,7 @@ msgid "Portaudio device"
 msgstr "Portaudio 设备"
 
 #: ../src/preferences.cpp:447
-msgid "OSS Device"                 
+msgid "OSS Device"
 msgstr "OSS 设备"
 
 #: ../src/preferences.cpp:452
@@ -6598,8 +6527,7 @@ msgstr "该行的说话人(Actor)。一般用来参考，无实际用处。"
 msgid ""
 "Effect for this line. This can be used to store extra information for "
 "karaoke scripts, or for the effects supported by the renderer."
-msgstr ""
-"该行的特效(Effect)。可用于储存卡拉OK脚本或渲染器可调用的额外信息。"
+msgstr "该行的特效(Effect)。可用于储存卡拉OK脚本或渲染器可调用的额外信息。"
 
 #: ../src/subs_edit_box.cpp:150
 msgid "Number of characters in the longest line of this subtitle."
@@ -6873,7 +6801,7 @@ msgstr "执行 VapourSynth 脚本"
 msgid "Failed to execute script! Press \"Close\" to continue."
 msgstr "Failed to execute script! Press \"Close\" to continue."
 
-#: ../src/visual_tool.cpp:129
+#: ../src/visual_tool.cpp:133
 msgid "visual typesetting"
 msgstr "可视化排版"
 
