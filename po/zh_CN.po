@@ -2312,15 +2312,15 @@ msgstr "打开样式管理器"
 
 #: ../src/command/tool.cpp:176
 msgid "&Kanji Timer..."
-msgstr "汉字计时器(&K)…"
+msgstr "汉字K值配对器(&K)…"
 
 #: ../src/command/tool.cpp:177
 msgid "Kanji Timer"
-msgstr "汉字计时器"
+msgstr "汉字K值配对器"
 
 #: ../src/command/tool.cpp:178
 msgid "Open the Kanji timer copier"
-msgstr "打开汉字计时器"
+msgstr "打开汉字K值配对器"
 
 #: ../src/command/tool.cpp:188
 msgid "&Timing Post-Processor..."
@@ -3789,11 +3789,11 @@ msgstr "接受该行(&A)"
 
 #: ../src/dialog_kara_timing_copy.cpp:566
 msgid "kanji timing"
-msgstr "汉字计时器"
+msgstr "匹配汉字K值"
 
 #: ../src/dialog_kara_timing_copy.cpp:574
 msgid "Select source and destination styles first."
-msgstr "先选择源样式和目标样式。"
+msgstr "首先需要选择源样式和目标样式。"
 
 #: ../src/dialog_kara_timing_copy.cpp:576
 msgid "The source and destination styles must be different."
@@ -3801,7 +3801,7 @@ msgstr "源样式与目标样式必须不同。"
 
 #: ../src/dialog_kara_timing_copy.cpp:626
 msgid "Group all of the source text."
-msgstr "将所有源文本分类。"
+msgstr "需要完全分组源文本。"
 
 #: ../src/dialog_paste_over.cpp:55
 msgid "Select Fields to Paste Over"
