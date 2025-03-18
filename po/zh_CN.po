@@ -19,10 +19,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: arch1t3cht/Aegisub Feature Release 12+ \n"
+"Project-Id-Version: arch1t3cht / Aegisub Feature Release 12+ \n"
 "Report-Msgid-Bugs-To: https://github.com/op200/Aegisub \n"
 "POT-Creation-Date: 2025-01-21 18:45+0800\n"
-"PO-Revision-Date: 2025-01-21 19:00+0800\n"
+"PO-Revision-Date: 2025-03-19 5:30+0800\n"
 "Last-Translator: op200 <None@None>\n"
 "Language-Team: None <None@None>\n"
 "Language: zh_CN\n"
@@ -2478,24 +2478,24 @@ msgstr "复制当前鼠标在视频上的坐标到剪贴板"
 
 #: ../src/command/video.cpp:222 ../src/command/video.cpp:223
 msgid "Cycle active subtitles provider"
-msgstr "切换字幕来源"
+msgstr "切换字幕渲染器"
 
 #: ../src/command/video.cpp:224
 msgid "Cycle through the available subtitles providers"
-msgstr "在可用的字幕来源中切换"
+msgstr "在可用的字幕渲染器中切换"
 
 #: ../src/command/video.cpp:235 ../src/command/video.cpp:252
 #, c-format
 msgid "Subtitles provider set to %s"
-msgstr "字幕来源设置为 %s"
+msgstr "字幕渲染器设置为 %s"
 
 #: ../src/command/video.cpp:241 ../src/command/video.cpp:242
 msgid "Reload active subtitles provider"
-msgstr ""
+msgstr "重载字幕渲染器"
 
 #: ../src/command/video.cpp:243
 msgid "Reloads the current subtitles provider"
-msgstr ""
+msgstr "重载当前的字幕渲染器"
 
 #: ../src/command/video.cpp:259
 msgid "&Detach Video"
@@ -3912,15 +3912,15 @@ msgstr "从视频获得(&V)"
 
 #: ../src/dialog_properties.cpp:139
 msgid "Script: "
-msgstr ""
+msgstr "脚本: "
 
 #: ../src/dialog_properties.cpp:145
 msgid "From video"
-msgstr ""
+msgstr "从视频获得"
 
 #: ../src/dialog_properties.cpp:151
 msgid "Layout: "
-msgstr ""
+msgstr "布局: "
 
 #: ../src/dialog_properties.cpp:164
 msgid "Resolution"
@@ -6173,7 +6173,7 @@ msgstr "较好质量"
 
 #: ../src/preferences.cpp:403
 msgid "High quality"
-msgstr "高质量"
+msgstr "较高质量"
 
 #: ../src/preferences.cpp:403
 msgid "Insane quality"
@@ -6189,23 +6189,23 @@ msgstr "质量"
 
 #: ../src/preferences.cpp:407
 msgid "Compressed"
-msgstr ""
+msgstr "压缩 (Compressed)"
 
 #: ../src/preferences.cpp:407
 msgid "Extended"
-msgstr ""
+msgstr "扩展 (Extended)"
 
 #: ../src/preferences.cpp:407
 msgid "Linear"
-msgstr ""
+msgstr "线性 (Linear)"
 
 #: ../src/preferences.cpp:407
 msgid "Logarithmic"
-msgstr ""
+msgstr "对数 (Logarithmic)"
 
 #: ../src/preferences.cpp:407
 msgid "Medium"
-msgstr ""
+msgstr "中频 (Medium)"
 
 #: ../src/preferences.cpp:409
 msgid "Frequency mapping"
