@@ -161,7 +161,7 @@ msgstr "索引"
 #: ../src/video_provider_bestsource.cpp:119
 #, fuzzy
 msgid "Creating cache... This can take a while!"
-msgstr "正在索引文件... 这可能需要一定时间!"
+msgstr "正在索引文件… 这可能需要一定时间!"
 
 #: ../src/audio_renderer_waveform.cpp:152
 msgid "Maximum"
@@ -174,11 +174,11 @@ msgstr "最大 + 平均"
 #: ../src/audio_timing_dialogue.cpp:512 ../src/audio_timing_dialogue.cpp:518
 #: ../src/command/time.cpp:177
 msgid "timing"
-msgstr "计时"
+msgstr ""
 
 #: ../src/audio_timing_karaoke.cpp:241
 msgid "karaoke timing"
-msgstr "卡拉OK计时"
+msgstr ""
 
 #: ../src/auto4_base.cpp:451
 #, c-format
@@ -576,17 +576,17 @@ msgstr "提交"
 
 #: ../src/command/audio.cpp:352
 msgid "Commit any pending audio timing changes"
-msgstr "提交所有在波形上对时间的更改"
+msgstr "提交所有在波形上对时轴的更改"
 
 #: ../src/command/audio.cpp:366 ../src/command/audio.cpp:367
 msgid "Commit and use default timing for next line"
-msgstr "提交并在下一行使用默认的计时"
+msgstr "提交并在下一行使用默认的时轴"
 
 #: ../src/command/audio.cpp:368
 msgid ""
 "Commit any pending audio timing changes and reset the next line's times to "
 "the default"
-msgstr "提交所以挂起的音频计时更改，并重置下一行的时间为默认"
+msgstr "提交所有挂起的音频时轴更改，并重置下一行的时间为默认"
 
 #: ../src/command/audio.cpp:381 ../src/command/audio.cpp:382
 msgid "Commit and move to next line"
@@ -737,7 +737,7 @@ msgstr "主要颜色"
 
 #: ../src/command/edit.cpp:391
 msgid "Set the primary fill color (\\c) at the cursor position"
-msgstr "设置主要填充色标签(\\c)，应用于光标的位置之后"
+msgstr "在文本光标后插入并设置主要颜色标签(\\c)"
 
 #: ../src/command/edit.cpp:401
 msgid "Secondary Color..."
@@ -749,7 +749,7 @@ msgstr "次要颜色"
 
 #: ../src/command/edit.cpp:403
 msgid "Set the secondary (karaoke) fill color (\\2c) at the cursor position"
-msgstr "设置次要填充色 (用于卡拉OK效果) 标签(\\2c)，应用于鼠标的位置之后"
+msgstr "在文本光标后插入并设置次要颜色标签(\\2c) (用于卡拉OK)"
 
 #: ../src/command/edit.cpp:413
 msgid "Outline Color..."
@@ -2074,7 +2074,7 @@ msgstr "保存一个可变帧率时间码(VFR timecode)v1或v2文件"
 
 #: ../src/command/tool.cpp:58
 msgid "ASSDraw3..."
-msgstr "ASSDraw3..."
+msgstr "ASSDraw3…"
 
 #: ../src/command/tool.cpp:59
 msgid "ASSDraw3"
@@ -3015,7 +3015,7 @@ msgstr "选择要附加的文件"
 
 #: ../src/dialog_attachments.cpp:142
 msgid "attach font file"
-msgstr "附加字字体文件"
+msgstr "附加字体文件"
 
 #: ../src/dialog_attachments.cpp:152
 msgid "attach graphics file"
@@ -3592,7 +3592,7 @@ msgstr "目标: "
 
 #: ../src/dialog_kara_timing_copy.cpp:470
 msgid "Kanji timing"
-msgstr "汉字计时器"
+msgstr "匹配汉字K值"
 
 #: ../src/dialog_kara_timing_copy.cpp:476
 msgid "Styles"
@@ -5070,7 +5070,7 @@ msgid ""
 "It can also be used to convert subtitles to a different speed video, such as "
 "NTSC to PAL speedup."
 msgstr ""
-"从输入到输出的影格率,转换字幕时间, 包含样式覆写标签内的时间。\n"
+"从输入到输出的影格率，转换字幕时间，包含样式覆写标签内的时间。\n"
 "\n"
 "转换标准字幕时间到VFRaC字幕时间是特别有用的。\n"
 "它也可以用来转换字幕到不同帧率的视频，例如应对NTSC到PAL的帧率提高。"
@@ -6746,7 +6746,7 @@ msgstr "窗口"
 
 #: default_menu.json:0
 msgid "Open..."
-msgstr "打开..."
+msgstr "打开…"
 
 #: default_menu.json:0
 msgid "Open Recent"
@@ -6758,11 +6758,11 @@ msgstr "保存"
 
 #: default_menu.json:0
 msgid "Save As..."
-msgstr "保存为..."
+msgstr "保存为…"
 
 #: default_menu.json:0
 msgid "Export As..."
-msgstr "导出为..."
+msgstr "导出为…"
 
 #: default_hotkey.json:244:
 msgid "Subtitle Edit Box"
@@ -6954,7 +6954,7 @@ msgstr ""
 
 #: packages/win_installer/fragment_strings.iss:1
 msgid "Installing runtime libraries..."
-msgstr "正在安装运行库..."
+msgstr "正在安装运行库…"
 
 #: packages/win_installer/fragment_strings.iss:1
 msgid "Create a start menu icon"
@@ -7002,7 +7002,7 @@ msgstr ""
 
 #, c-format
 #~ msgid "Font '%s' is used in a drawing, but not in any text.\n"
-#~ msgstr "在绘图标签中使用了字体 '%s'，但没有在文本中使用它.\n"
+#~ msgstr "在绘图标签中使用了字体 '%s'，但没有在文本中使用它。\n"
 
 #~ msgid "Shift+Enter adds \\n"
 #~ msgstr "Shift+Enter 改为键入 \\n"
