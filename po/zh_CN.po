@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: arch1t3cht / Aegisub Feature Release 12+ \n"
 "Report-Msgid-Bugs-To: https://github.com/op200/Aegisub \n"
-"POT-Creation-Date: 2025-03-19 19:31+0800\n"
+"POT-Creation-Date: 2025-06-26 10:03+0800\n"
 "PO-Revision-Date: 2025-03-19 19:30+0800\n"
 "Last-Translator: op200 <None@None>\n"
 "Language-Team: None <None@None>\n"
@@ -1618,36 +1618,29 @@ msgstr "保存当前的关键帧列表"
 msgid "Save keyframes file"
 msgstr "保存关键帧…"
 
-#: ../src/command/recent.cpp:44 ../src/command/recent.cpp:54
-msgid "Open recent audio"
-msgstr "打开最近打开的音频文件"
-
-#: ../src/command/recent.cpp:44 ../src/command/recent.cpp:45
-#: ../src/command/recent.cpp:46 ../src/command/recent.cpp:47
-#: ../src/command/recent.cpp:48 ../src/command/recent.cpp:52
-#: ../src/command/recent.cpp:53 ../src/command/recent.cpp:63
-#: ../src/command/recent.cpp:64 ../src/command/recent.cpp:74
-#: ../src/command/recent.cpp:75 ../src/command/recent.cpp:90
-#: ../src/command/recent.cpp:91 ../src/command/recent.cpp:101
-#: ../src/command/recent.cpp:102
+#: ../src/command/recent.cpp:52 ../src/command/recent.cpp:53
+#: ../src/command/recent.cpp:63 ../src/command/recent.cpp:64
+#: ../src/command/recent.cpp:74 ../src/command/recent.cpp:75
+#: ../src/command/recent.cpp:90 ../src/command/recent.cpp:91
+#: ../src/command/recent.cpp:101 ../src/command/recent.cpp:102
 msgid "Recent"
 msgstr "最近打开"
 
-#: ../src/command/recent.cpp:45 ../src/command/recent.cpp:65
+#: ../src/command/recent.cpp:54
+msgid "Open recent audio"
+msgstr "打开最近打开的音频文件"
+
+#: ../src/command/recent.cpp:65
 msgid "Open recent keyframes"
 msgstr "打开最近打开的关键帧"
 
-#: ../src/command/recent.cpp:46 ../src/command/recent.cpp:76
+#: ../src/command/recent.cpp:76
 msgid "Open recent subtitles"
 msgstr "打开最近打开的字幕文件"
 
-#: ../src/command/recent.cpp:47 ../src/command/recent.cpp:92
+#: ../src/command/recent.cpp:92
 msgid "Open recent timecodes"
 msgstr "打开最近打开的时间码文件"
-
-#: ../src/command/recent.cpp:48
-msgid "Open recent video"
-msgstr "打开最近打开的视频文件"
 
 #: ../src/command/recent.cpp:103
 msgid "Open recent videos"
@@ -4845,9 +4838,8 @@ msgid ""
 "extend or shrink start time of the second line; if totally to right, it will "
 "extend or shrink the end time of the first line."
 msgstr ""
-"设置如何让相邻的字幕行的时轴紧贴。"
-"如果设为完全向左，将紧贴至第二行的开始时间；"
-"如果完全向右，将紧贴至第一行的结束时间。"
+"设置如何让相邻的字幕行的时轴紧贴。如果设为完全向左，将紧贴至第二行的开始时"
+"间；如果完全向右，将紧贴至第一行的结束时间。"
 
 #: ../src/dialog_timing_processor.cpp:204
 msgid "Bias: Start <- "
@@ -6681,7 +6673,6 @@ msgid ""
 msgstr "正在解码整个轨道以确保帧精度完美。这可能需要一定时间!"
 
 #: ../src/video_provider_bestsource.cpp:139
-#, fuzzy
 msgid "Scanning"
 msgstr ""
 
@@ -6973,6 +6964,9 @@ msgstr ""
 "GNU通用公共许可证第二版(GPLv2)，这意味着您可以将该应用程序用于任何目的而不需"
 "要支付费用，但同时也不会得到任何形式的担保。%n%n您可以到Aegisub官网获取源代码"
 "信息。"
+
+#~ msgid "Open recent video"
+#~ msgstr "打开最近打开的视频文件"
 
 #, fuzzy, c-format
 #~ msgid "Checking for updates failed: %s."
