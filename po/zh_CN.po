@@ -614,7 +614,7 @@ msgstr "提交并在下一行使用默认的时轴"
 msgid ""
 "Commit any pending audio timing changes and reset the next line's times to "
 "the default"
-msgstr "提交所有挂起的音频时轴更改，并重置下一行的时间为默认"
+msgstr "提交所有在波形上对时轴的更改，并将下一行的时轴重置为默认"
 
 #: ../src/command/audio.cpp:381 ../src/command/audio.cpp:382
 msgid "Commit and move to next line"
@@ -622,7 +622,7 @@ msgstr "接受更改并移动到下一行"
 
 #: ../src/command/audio.cpp:383
 msgid "Commit any pending audio timing changes and move to the next line"
-msgstr "提交所有通过音频对时间的更改并移动到下一行"
+msgstr "提交所有在波形上对时轴的更改，并移动到下一行"
 
 #: ../src/command/audio.cpp:396 ../src/command/audio.cpp:397
 msgid "Commit and stay on current line"
@@ -630,7 +630,7 @@ msgstr "提交并留在当前行"
 
 #: ../src/command/audio.cpp:398
 msgid "Commit any pending audio timing changes and stay on the current line"
-msgstr "提交所有通过音频对时间的更改并留在当前行"
+msgstr "提交所有在波形上对时轴的更改，并留在当前行"
 
 #: ../src/command/audio.cpp:409 ../src/command/audio.cpp:410
 msgid "Go to selection"
@@ -1940,7 +1940,7 @@ msgstr "结束位置设为当前帧"
 
 #: ../src/command/time.cpp:185
 msgid "Set end of selected subtitles to current video frame"
-msgstr "将所选行的最后一帧设为当前帧"
+msgstr "将所选行的结束位置设为当前画面帧位置"
 
 #: ../src/command/time.cpp:195
 msgid "Snap to S&cene"
@@ -2051,7 +2051,7 @@ msgstr "开始位置设为当前帧"
 
 #: ../src/command/time.cpp:358
 msgid "Set start of selected subtitles to current video frame"
-msgstr "将所选行的第一帧设为当前帧"
+msgstr "将所选行的开始位置设为当前画面帧位置"
 
 #: ../src/command/time.cpp:370
 msgid "Next line or syllable"
@@ -5606,7 +5606,7 @@ msgstr "反转滚轮缩放"
 
 #: ../src/preferences.cpp:184
 msgid "Default Zoom"
-msgstr "视频默认缩放倍率"
+msgstr "默认缩放倍率"
 
 #: ../src/preferences.cpp:186
 msgid "Fast jump step in frames"
@@ -5766,7 +5766,7 @@ msgstr "音节边线"
 
 #: ../src/preferences.cpp:267
 msgid "Syntax Highlighting"
-msgstr "字幕编辑框语法高亮"
+msgstr "语法高亮"
 
 #: ../src/preferences.cpp:268
 msgid "Background"
