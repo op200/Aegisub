@@ -2374,24 +2374,24 @@ msgstr "复制当前鼠标在视频上的坐标到剪贴板"
 
 #: ../src/command/video.cpp:222 ../src/command/video.cpp:223
 msgid "Cycle active subtitles provider"
-msgstr "切换字幕渲染器"
+msgstr "切换字幕服务后端"
 
 #: ../src/command/video.cpp:224
 msgid "Cycle through the available subtitles providers"
-msgstr "在可用的字幕渲染器中切换"
+msgstr "在可用的字幕服务后端中切换"
 
 #: ../src/command/video.cpp:235 ../src/command/video.cpp:252
 #, c-format
 msgid "Subtitles provider set to %s"
-msgstr "字幕渲染器设置为 %s"
+msgstr "字幕服务后端设置为 %s"
 
 #: ../src/command/video.cpp:241 ../src/command/video.cpp:242
 msgid "Reload active subtitles provider"
-msgstr "重载字幕渲染器"
+msgstr "重载字幕服务后端"
 
 #: ../src/command/video.cpp:243
 msgid "Reloads the current subtitles provider"
-msgstr "重载当前的字幕渲染器"
+msgstr "重载当前的字幕服务后端"
 
 #: ../src/command/video.cpp:259
 msgid "&Detach Video"
@@ -6039,7 +6039,7 @@ msgstr "专家设置"
 
 #: ../src/preferences.cpp:390
 msgid "Audio provider"
-msgstr "音频来自"
+msgstr "音频服务后端"
 
 #: ../src/preferences.cpp:393
 msgid "Audio player"
@@ -6171,11 +6171,11 @@ msgstr "缓冲长度"
 
 #: ../src/preferences.cpp:466
 msgid "Video provider"
-msgstr "视频来自"
+msgstr "视频服务后端"
 
 #: ../src/preferences.cpp:469
 msgid "Subtitles provider"
-msgstr "字幕来自"
+msgstr "字幕服务后端"
 
 #: ../src/preferences.cpp:474
 msgid "Avisynth memory limit"
@@ -6347,7 +6347,7 @@ msgid ""
 "containing audio data:\n"
 "\n"
 msgstr ""
-"没有可用的音频解码后端可以从所选文件中识别到音频数据:\n"
+"可用的音频服务后端都无法从所选文件中识别到音频数据:\n"
 "\n"
 
 #: ../src/project.cpp:266
@@ -6356,7 +6356,7 @@ msgid ""
 "selected file:\n"
 "\n"
 msgstr ""
-"没有可用的音频解码后端拥有适配所选文件的解码器:\n"
+"可用的音频服务后端都没有适配所选文件的解码器:\n"
 "\n"
 
 #: ../src/resolution_resampler.cpp:289
@@ -6989,9 +6989,9 @@ msgstr ""
 #~ "\n"
 #~ "The following providers were tried:\n"
 #~ msgstr ""
-#~ "没有可用的音频服务程序能够将所选文件识别为包含音频的文件。\n"
+#~ "可用的音频服务后端都无法将所选文件识别为包含音频的文件。\n"
 #~ "\n"
-#~ "已尝试下列服务程序: \n"
+#~ "已尝试下列服务程序:\n"
 
 #~ msgid ""
 #~ "None of the available audio providers have a codec available to handle "
@@ -6999,9 +6999,9 @@ msgstr ""
 #~ "\n"
 #~ "The following providers were tried:\n"
 #~ msgstr ""
-#~ "所有音频服务程序均没有所选文件的解码器。\n"
+#~ "可用的音频服务后端都没有适配所选文件的解码器。\n"
 #~ "\n"
-#~ "已尝试下列服务程序: \n"
+#~ "已尝试下列服务程序:\n"
 
 #~ msgid ""
 #~ "A free, cross-platform open source tool for creating and modifying "
